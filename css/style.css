@@ -1,0 +1,232 @@
+/*ESTILOS */
+
+body {
+    background-color: burlywood;
+}
+
+/* NAVBAR */
+.logo {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: brown;
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: rgb(240, 136, 52);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.boton {
+    background-color:maroon;
+    padding: 7px 10px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+/* Títulos y Subtítulos */
+h1 {
+    color:rgb(240, 136, 52);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(211, 30, 69);
+    font-size:xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: rgb(119, 5, 28);
+    font-size:x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    color: rgb(119, 5, 28);
+    font-size:x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* Estilos para Index */
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Redes */
+.redes {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+/* Estilos para preguntas */
+.preguntas {
+    color: rgb(119, 5, 28);
+    font-size:x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+.respuestas {
+    color: rgb(141, 75, 34);
+    text-align: center;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+
+/* Estilos del formulario */
+.formulario {
+    padding: 30px;
+}
+
+fieldset {
+    background-color: rgb(201, 80, 10);
+    border-style: dotted;
+    border-color: black;
+}
+
+#nombre {
+    padding: 20px;
+}
+
+#texto {
+    padding: 10px;
+}
+
+#txt {
+    height: 120px;
+    width: 90%;
+}
+
+#enviar {
+    padding: 20px;
+}
+
+/* Estilos de mapa */
+.mapa {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Estilos de textos */
+.textoIndex {
+    color: rgb(141, 75, 34);
+    text-align: center;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.preguntas {
+    font-weight: bold;
+}
+
+.respuestas {
+    font-style: italic;
+}
+
+/* Estilos para listas */
+li {
+    /* elimino la viñeta de las listas */
+    list-style-type: none;
+}
+
+/* Footer */
+footer {
+    color: rgb(24, 20, 20);
+    font-size: medium;
+    font-style: italic;
+    background-image: url(../img/FONDO\ HUELLITAS.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.whatsapp {
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card {
+    margin: 40px;
+    width: 100%;
+}
+
+/* MEDIAS QUERIES */
+@media (max-width: 768px) {
+    /* Media general */
+    header, h1 {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navLink, .boton {
+        flex: 1;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 24px;
+    }
+
+    /* Media Index */
+    .banner {
+        flex-direction: column;
+    }
+
+    video {
+        flex-direction: column;
+    }
+
+    /* Media Tienda */
+    .card {
+        width: 80%;
+        margin: 10px;
+    }
+    
+    /* Media Preguntas Frecuentes */
+    .preguntas {
+        font-size: 16px;
+        text-align: center;
+    }
+    .respuestas {
+        display: block;
+        text-align: center;
+    }
+
+    /* Media Contacto */
+    h2, h3, h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .redes {
+        align-items: center;
+    }
+}
