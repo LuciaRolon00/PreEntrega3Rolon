@@ -17,7 +17,8 @@
 
         <h1><i><strong>¡BIENVENIDO!</strong></i></h1>
 
-        <nav>
+        <nav> 
+            <!-- Links de navegación -->
             <ul class="navLink">
                 <li><a href="index.html" class="boton">INICIO</a></li>
                 <li><a href="./html/tienda.html" class="boton">TIENDA</a></li>
@@ -28,17 +29,35 @@
         </nav>
     </header>
     <main>
-        <div class="banner">
-            <img src="./img/MASCOTAS.jpg" alt="Banner">
-        </div>
+        <!-- CARROUSEL -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/MASCOTAS.jpg" class="d-block w-100" alt="Mascotas dibujitos">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <p class="textoIndex"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime pariatur saepe dolorem sed. Deserunt at quo odit dolore nulla, sint id quos esse cumque cum laudantium ea dignissimos fuga eligendi dolor aliquam tempore voluptatibus quis voluptatum pariatur dolorum quae quisquam quas. Consectetur, corporis voluptatem veritatis voluptas tempore quos ut quasi illo impedit eaque sequi dignissimos? Voluptatum suscipit minima optio obcaecati quasi, exercitationem accusamus at ab voluptatem odio, alias architecto molestiae est. Corrupti sed, qui quis iure quaerat dolorum necessitatibus, saepe unde sunt molestias, reprehenderit libero vero iste eveniet voluptatum nulla voluptates cum culpa harum alias soluta! Voluptate quam, praesentium maxime quos adipisci inventore ipsa cum facilis aspernatur quas tempora reprehenderit. Hic blanditiis modi est, non, tempora delectus provident illo suscipit, nemo nam molestiae fugit placeat officia numquam doloribus veniam id amet neque dignissimos sapiente eum. Aspernatur quo, asperiores incidunt ut similique fuga dolores a aliquam ex voluptates ipsum voluptate quasi quis nihil quaerat. A repellendus quibusdam labore, itaque perferendis saepe. Quaerat impedit excepturi veniam expedita nemo non iure? Voluptates architecto vero repellat voluptatem quos molestiae, tempore nobis corrupti. Doloribus non necessitatibus, obcaecati ipsam laboriosam impedit corporis delectus dicta tempora fuga nobis, reiciendis dolor numquam culpa fugit ullam ut nam eligendi.</p>
 
-        <div>
-        <video width="1000" height="1000" autoplay>
-            <source src="./img/video perro.mp4" type="video/mp4">
-        </video>    
-        </div>
-        
     </main>
 
     <footer>

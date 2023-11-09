@@ -1,0 +1,59 @@
+//CSS para textos y parrafos
+
+h2 {
+    text-align: center;
+    color: rgb(211, 30, 69);
+    font-size:xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: rgb(119, 5, 28);
+    font-size:x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+
+h4 {
+    color: rgb(119, 5, 28);
+    font-size:x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.textoIndex {
+    color: rgb(141, 75, 34);
+    text-align: center;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    margin-left: 50px;
+}
+
+/* Estilos para preguntas */
+
+ul, li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.preguntas {
+    color: rgb(119, 5, 28);
+    font-size:x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.respuestas {
+    color: rgb(141, 75, 34);
+    text-align: center;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    font-style: italic;
+}
