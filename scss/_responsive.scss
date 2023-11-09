@@ -1,0 +1,51 @@
+//Media Queries
+
+@media (max-width: 768px) {
+    /* Media general */
+    header, h1 {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navLink, .boton {
+        flex: 1;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 24px;
+    }
+
+    /* Media Index */
+    .banner {
+        flex-direction: column;
+    }
+
+    video {
+        flex-direction: column;
+    }
+
+    /* Media Tienda */
+    .card {
+        width: 80%;
+        margin: 10px;
+    }
+    
+    /* Media Preguntas Frecuentes */
+    .preguntas {
+        font-size: 16px;
+        text-align: center;
+    }
+    .respuestas {
+        display: block;
+        text-align: center;
+    }
+
+    /* Media Contacto */
+    h2, h3, h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .redes {
+        align-items: center;
+    }
+}

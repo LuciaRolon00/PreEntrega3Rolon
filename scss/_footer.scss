@@ -1,0 +1,24 @@
+//CSS para el footer
+
+footer {
+    color: rgb(24, 20, 20);
+    font-size: medium;
+    font-style: italic;
+    background-image: url(../img/FONDO\ HUELLITAS.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.whatsapp {
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
