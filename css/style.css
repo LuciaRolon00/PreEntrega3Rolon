@@ -16,7 +16,7 @@ h3 {
   color: rgb(119, 5, 28);
   font-size: x-large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding-left: 20px;
+  text-align: center;
 }
 
 h4 {
@@ -41,6 +41,10 @@ p {
 ul, li {
   list-style-type: none;
   text-align: center;
+  color: rgb(141, 75, 34);
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
 }
 
 .preguntas {
@@ -142,13 +146,13 @@ footer {
 
 form {
   width: 400px;
-  background: red;
+  background: rgb(223, 113, 49);
   padding: 20px;
   margin: auto;
   margin-top: 30px;
   border-radius: 5px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(167, 157, 159);
+  color: rgb(66, 14, 24);
   box-shadow: 7px 13px 37px black;
 }
 
@@ -172,7 +176,7 @@ input[type=radio] {
 
 .btnformulario {
   margin-bottom: 0;
-  background-color: darkgreen;
+  background-color: rgb(156, 45, 45);
   color: floralwhite;
   border: none;
   padding: 10px 20px;
