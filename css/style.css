@@ -17,6 +17,7 @@ h3 {
   font-size: x-large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  font-style: italic;
 }
 
 h4 {
@@ -24,6 +25,7 @@ h4 {
   font-size: x-large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  font-style: italic;
 }
 
 .textoIndex {
@@ -123,6 +125,7 @@ footer {
 .card {
   margin: 40px;
   width: 100%;
+  background: linear-gradient(rgb(211, 98, 98), rgb(206, 23, 23));
 }
 
 .mapa {
@@ -151,6 +154,7 @@ form {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(66, 14, 24);
   box-shadow: 7px 13px 37px black;
+  font-weight: bold;
 }
 
 input[type=text],
